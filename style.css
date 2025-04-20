@@ -7,6 +7,16 @@ body {
     color: white;
 }
 
+.topnav {
+    padding-top: 1em;
+    float: left;
+    text-align: right;
+    overflow: hidden;
+}
+
+main {
+}
+
 #intro-name {
     font-size: 2.3em;
     color: white;
@@ -30,13 +40,6 @@ body {
 .container {
     display: grid;
     gap: 10px;
-}
-
-.topnav {
-    padding-top: 1em;
-    float: left;
-    text-align: right;
-    overflow: hidden;
 }
 
 .topnav .active {
